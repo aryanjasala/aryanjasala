@@ -10,36 +10,42 @@
 
 ---
 
-Senior Software Engineer at **[rtCamp](https://github.com/rtCamp)**, working remotely out of Delhi.
-I architect and lead enterprise WordPress engagements — platform migrations, front-end architecture,
-and performance work where the numbers have to actually move.
+I lead enterprise WordPress projects at **[rtCamp](https://github.com/rtCamp)**, and the engineers on them.
+I also co-build rtCamp's open-source WordPress starter stack and handle technical presales.
 
-Automattic Certified **Advanced Professional WordPress Developer**.
+Senior Software Engineer, Automattic Certified **Advanced Professional WordPress Developer**, working
+remotely out of Delhi. Most of my work lives in private client repos, so this profile is quieter than
+my commit history.
 
-Most of what I ship lives in private and client repos, so this profile is a lot quieter than my
-commit history.
+## Open source
+
+rtCamp's WordPress starter stack, which I co-build:
+
+- **[plugin-elementary](https://github.com/rtCamp/plugin-elementary)**: starter plugin
+- **[theme-elementary](https://github.com/rtCamp/theme-elementary)**: starter block theme
+- **[wp-primitives](https://github.com/rtCamp/wp-primitives)**: the shared PHP layer under both
+- **[wp-tooling](https://github.com/rtCamp/wp-tooling)**: build and scaffolding tooling
 
 ## What I work on
 
-**Platform migrations.** Architected a US medical-education platform off legacy Django onto
-WordPress VIP — data model, MemberPress + Stripe multi-currency billing, launch and post-live plan.
+**Platform migrations.** Legacy Django to WordPress VIP for a US medical-education platform: data model,
+MemberPress + Stripe multi-currency billing, launch and post-live plan.
 
-**Front-end architecture.** Built rtCamp's reusable front-end foundation as FE Lead: monorepo,
-component-based rendering, Tailwind + Webpack toolchain — adopted as the org standard.
+**Internationalisation.** Platform-wide WPML conversion: content pipeline, automated translation
+workflows, and a custom block parser.
 
-**Internationalisation.** Designed a platform-wide WPML conversion: content pipeline, automated
-translation workflows, and a custom block parser.
+**Front-end architecture.** Designed rtCamp's reusable front-end architecture as Front-end Lead, then
+co-built its successor, the starter stack above.
 
-**LMS engineering.** Owned the go-live for an international news/media academy — completion and
-reminder email systems, plus custom tooling to recover lost course progress.
+**LMS engineering.** Go-live for an international news/media academy: completion and reminder emails,
+plus tooling to recover lost course progress.
 
-**Performance.** Core Web Vitals work on high-traffic media sites — CSS bundling, font and ad-script
-tuning, deferred rendering, and a CDN asset-delivery system serving theme assets and images off a
-dedicated subdomain.
+**Performance.** Core Web Vitals work on high-traffic media sites: CSS bundling, font and ad-script
+tuning, deferred rendering, and a CDN asset-delivery setup on a dedicated subdomain.
 
-**Developer tooling.** A PHPStan CI pipeline and a GitHub → Slack sync action, both adopted across
-projects. Also: sprint planning, technical discovery and audits, review gatekeeping, and onboarding
-new developer batches.
+**Developer tooling.** A PHPStan CI pipeline and a GitHub to Slack sync action, used across projects.
+
+**AI tooling.** Internal AI tools for the engineering team.
 
 ## Stack
 
@@ -59,12 +65,18 @@ new developer batches.
 
 I write up whatever broke and why at **[aryanx.in](https://aryanx.in)**.
 
-- [When Cloudflare Sneezed and WordPress Caught a Fatal Error](https://aryanx.in/when-cloudflare-sneezed-and-wordpress-caught-a-fatal-error/) — what a CDN outage actually does to a WordPress stack
-- [Optimising Largest Contentful Paint](https://aryanx.in/rtcamp-notes-day-68-of-undefined/) — from the Core Web Vitals notes
-- [Unit testing WordPress, from scratch](https://aryanx.in/rtcamp-notes-day-69-of-undefined/) — PHPUnit on VIP Go
-- [The Formatting Toolbar API](https://aryanx.in/rtcamp-notes-day-61-of-undefined/) — extending Gutenberg's inline toolbar
+**WordPress**
+- [When Cloudflare Sneezed and WordPress Caught a Fatal Error](https://aryanx.in/when-cloudflare-sneezed-and-wordpress-caught-a-fatal-error/): a CDN outage that took down wp-admin on a site not behind Cloudflare
+- [WordPress VIP Go: repo structure, environments, and local dev](https://aryanx.in/wordpress-vip-go-structure-environments-local-dev/)
+- [PHPUnit tests for a WordPress plugin, scaffold to first assertion](https://aryanx.in/phpunit-tests-wordpress-plugin-scaffold/)
+- [Custom Gutenberg blocks: create-block, InnerBlocks, context and patterns](https://aryanx.in/custom-gutenberg-blocks-innerblocks-context-patterns/)
 
-Plus ~70 more entries in the *WordPress notes* series.
+**Homelab**
+- [Split horizon DNS, and the day my own domain broke a cron job](https://aryanx.in/split-horizon-dns-homelab-resolver/)
+- [GPU passthrough on Proxmox, and why not an LXC](https://aryanx.in/proxmox-gpu-passthrough-vfio-vs-lxc/)
+- [A two node Proxmox cluster, and the quorum problem](https://aryanx.in/proxmox-two-node-cluster-quorum/)
+
+More in [WordPress](https://aryanx.in/category/wordpress/) and [Homelab](https://aryanx.in/category/homelab/).
 
 <p align="center">
   <sub>Delhi · <a href="https://aryanx.in">aryanx.in</a></sub>
