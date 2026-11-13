@@ -13,7 +13,8 @@
 
 Senior Software Engineer at **[rtCamp](https://github.com/rtCamp)**. I lead enterprise WordPress
 builds and the engineers on them, co-build rtCamp's open-source starter stack, and handle technical
-presales. Automattic Certified Advanced Professional WordPress Developer, remote from Delhi.
+presales. Automattic Certified Advanced Professional WordPress Developer and Claude Certified
+Developer (Foundations). Remote from Delhi.
 
 Most of my work lives in private client repos, so this profile is quieter than my commit history.
 
