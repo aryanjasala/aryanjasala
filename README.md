@@ -23,6 +23,7 @@ Most of my work lives in private client repos, so this profile is quieter than m
 - **[theme-elementary](https://github.com/rtCamp/theme-elementary)** · starter block theme
 - **[wp-primitives](https://github.com/rtCamp/wp-primitives)** · the shared PHP layer under both
 - **[wp-tooling](https://github.com/rtCamp/wp-tooling)** · build and scaffolding tooling
+- **[WP contributions](https://profiles.wordpress.org/aryanjasala/)** · my WordPress.org profile
 
 ## What I work on
 
